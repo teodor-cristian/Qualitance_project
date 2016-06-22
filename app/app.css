@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+    font-size: 200%;
+}
+
+a:hover {
+   background-color: darkgreen;
+   color: #dbe6c1;
+}
+
+a:visited {
+    color: green;
+}
