@@ -1,13 +1,72 @@
 a{
     text-decoration: none;
     font-size: 200%;
-}
-
-a:hover {
-   background-color: darkgreen;
-   color: #dbe6c1;
+    color:white;
 }
 
 a:visited {
-    color: green;
+    color: 996666;
+}
+
+a:hover {
+   background: linear-gradient(to right, #C0C0C0  , transparent);
+   color: white;;
+}
+
+#headerStyle
+{
+  background-image: url("assets/images/bg2.jpg");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+nav{
+  text-align: right;
+}
+
+#qhome{
+  float:left;
+}
+
+.bannerText{
+  padding-top: 215px;
+}
+
+#learnMore{
+  text-align: center;
+
+}
+
+#learnMore:hover{
+    background: radial-gradient(circle, #C0C0C0, transparent, transparent);
+}
+
+.section1{
+  height: 200px;
+  background-color: #009999;
+  text-align: center;
+  margin: 0px;
+}
+
+#description{
+  margin: 0px;
+}
+
+#icons{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 450%;
+}
+
+#icons i{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#icons i:hover{
+  background: radial-gradient(circle, #C0C0C0, transparent, transparent);
+  border-radius: 100%;
+  color: white;
 }
