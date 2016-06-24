@@ -3,6 +3,11 @@ a{
     font-size: 200%;
     color:white;
 }
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 a:visited {
     color: 996666;
@@ -31,7 +36,7 @@ nav{
 }
 
 .bannerText{
-  padding-top: 215px;
+  padding-top: 140px;
 }
 
 #learnMore{
@@ -62,12 +67,52 @@ nav{
 }
 
 #icons i{
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #icons i:hover{
   background: radial-gradient(circle, #C0C0C0, transparent, transparent);
   border-radius: 100%;
   color: white;
+}
+
+.colInline{
+  float:left;
+  width: 33.33%;
+
+}
+
+#top{
+  background: #4d4d4d;
+  text-align: center;
+}
+
+.container{
+  margin: auto;
+  width: 1200px;
+}
+
+.container.wrapper img{
+  float: left;
+  width: 30%;
+}
+
+#footerId{
+  clear: both;
+}
+
+.imgWrapper{
+width: 33.33%;
+float: left;
+padding: 20px;
+box-sizing: border-box;
+}
+
+.imgWrapper img{
+  width: 100%;
+}
+
+#footerId img{
+  width: 50px;
 }
