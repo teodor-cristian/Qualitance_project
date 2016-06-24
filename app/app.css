@@ -75,6 +75,8 @@ nav{
   background: radial-gradient(circle, #C0C0C0, transparent, transparent);
   border-radius: 100%;
   color: white;
+  transform:rotate(90deg);
+  -webkit-transition-duration: 1s;
 }
 
 .colInline{
@@ -113,6 +115,16 @@ box-sizing: border-box;
   width: 100%;
 }
 
+.imgWrapper img:hover{
+  transform: scale(1.2,1.2);
+  -webkit-transition-duration: 1s;
+}
+
 #footerId img{
   width: 50px;
+}
+
+#topId:hover{
+  transform: translate(0px,-35px);
+  -webkit-transition-duration: 1s;
 }
