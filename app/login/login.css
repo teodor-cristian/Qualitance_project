@@ -74,11 +74,8 @@ vertical-align: text-bottom;
 
 button{
   margin-top: 40px;
-  //float: right;
-  //margin-right: 120px;
-
-  float: right;
-  margin-right: 120px;
+  /*float: right;
+  margin-right: 120px;*/
   font-size: 30px;
   color: white;
   background-color: transparent;
