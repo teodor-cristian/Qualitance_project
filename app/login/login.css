@@ -70,13 +70,15 @@ vertical-align: text-bottom;
   text-align: right;
   font-size: 30px;
   color: white;
-
 }
 
 button{
   margin-top: 40px;
   //float: right;
   //margin-right: 120px;
+
+  float: right;
+  margin-right: 120px;
   font-size: 30px;
   color: white;
   background-color: transparent;
