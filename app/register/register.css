@@ -1,0 +1,74 @@
+header{
+  background-color: #4d4d4d;
+  height: 80px;
+  font-size: 30px;
+  position: fixed;
+  width: 100%;
+}
+
+header nav{
+    text-align: right;
+    padding-top: 20px;
+}
+
+a{
+  text-decoration: none;
+//  font-size: 200%;
+  color:white;
+}
+
+#qhome{
+  padding-top: 20px;
+  float:left;
+}
+
+body{
+  background-color: #009999;
+}
+
+.wrapper{
+  padding-top: 100px;
+}
+
+.inner-wrapper{
+  margin: 0 auto;
+  width: 50%;
+}
+
+
+h1{
+  color: white;
+  text-align: center;
+  width: 55%;
+}
+
+input{
+  font-size: 30px;
+  width: 800px;
+  display: block;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+}
+
+label{
+  font-size: 30px;
+  color: white;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+
+
+button{
+  margin-top: 40px;
+  float: right;
+  margin-right: 120px;
+  font-size: 30px;
+  color: white;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+}

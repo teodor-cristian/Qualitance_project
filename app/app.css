@@ -10,7 +10,7 @@ a{
 }
 
 a:visited {
-    color: 996666;
+    color: white;
 }
 
 a:hover {
@@ -113,11 +113,14 @@ box-sizing: border-box;
 
 .imgWrapper img{
   width: 100%;
+  transition-duration: 1s;
+  opacity: 0.9;
 }
 
 .imgWrapper img:hover{
   transform: scale(1.2,1.2);
   -webkit-transition-duration: 1s;
+  opacity: 1;
 }
 
 #footerId img{
