@@ -1,0 +1,108 @@
+.row{
+  padding-top: 70px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+
+.thumbnail{
+  border: none;
+}
+  #myCarousel{
+    width: 45%;
+    height: 90%;
+  }
+
+.carousel-inner{
+  position: relative;
+}
+.left .carousel-control{
+position: absolute;
+}
+.right .carousel-control{
+position: absolute;
+}
+
+.carousel-control .glyphicon-chevron-right {
+    /* position: absolute; */
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+  //  padding-top: 200px;
+    right:60px;
+  }
+  .carousel-control .glyphicon-chevron-left {
+      /* position: absolute; */
+      z-index: 5;
+      display: inline-block;
+      margin-top: -10px;
+    //  padding-top: 200px;
+      left:60px;
+      background-color: transparent;
+    }
+
+    .carousel-control.right{
+      background-color: transparent;
+    }
+
+    .carousel-control.right:hover{
+      background-color: transparent;
+    }
+
+.semn {
+  background-color: orange;
+}
+
+.semn:hover {
+  background-color: orange;
+}
+
+.semn:visited {
+  background-color: orange;
+}
+
+.semn:target{
+  background-color: orange;
+}
+
+.semn:target:hover{
+  background-color: orange;
+}
+
+.semn:active:hover{
+  background-color: orange;
+}
+
+.addCard{
+  margin-left: 100px;
+}
+
+.tabel div{
+  background-color: orange;
+  border: 1px solid;
+}
+
+.tabele{
+  padding-top: 0px;
+  color: white;
+  text-align: center;
+}
+
+.nav-tabs a{
+  font-size: 20px;
+  color: orange;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-top: 5px solid orange;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
