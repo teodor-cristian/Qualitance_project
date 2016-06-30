@@ -13,8 +13,7 @@
   border: none;
 }
   #myCarousel{
-    width: 45%;
-    height: 90%;
+  
   }
 
 .carousel-inner{
@@ -106,3 +105,15 @@ position: absolute;
     border-top: 5px solid orange;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
+}
+
+.myTabs{
+  padding: 50px;
+}
+
+
+footer{
+  padding-top: 50px;
+  display: block;
+  clear: both;
+}
