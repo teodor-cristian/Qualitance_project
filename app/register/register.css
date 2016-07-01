@@ -1,16 +1,3 @@
-header{
-  background-color: #4d4d4d;
-  height: 80px;
-  font-size: 30px;
-  position: fixed;
-  width: 100%;
-}
-
-header nav{
-    text-align: right;
-    padding-top: 20px;
-}
-
 a{
   text-decoration: none;
   color:white;
@@ -23,10 +10,11 @@ a{
 
 body{
   background-color: #009999;
+  font-size: 16px;
 }
 
 .wrapper{
-  padding-top: 100px;
+  padding-top: 5em;
 }
 
 .inner-wrapper{
@@ -38,12 +26,12 @@ body{
 h1{
   color: white;
   text-align: center;
-  width: 55%;
+  font-size: 3em;
 }
 
-input{
-  font-size: 30px;
-  width: 800px;
+.wrapper input{
+  font-size: 2em;
+  width: 18em;
   display: block;
   background-color: transparent;
   border-style: solid;
@@ -51,23 +39,77 @@ input{
   border-color: white;
 }
 
-label{
-  font-size: 30px;
+.wrapper label{
+  font-size: 2em;
   color: white;
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 0.5em;
 }
 
 
 
-button{
-  margin-top: 40px;
+.wrapper button{
+  margin-top: 1.5em;
   float: right;
-  margin-right: 120px;
-  font-size: 30px;
+  right: 0;
+  font-size: 2.2em;
   color: white;
   background-color: transparent;
   border-style: solid;
   border-radius: 10px;
   border-color: white;
+}
+
+
+
+
+@media (max-width: 900px) {
+  body {
+    font-size: 12px;
+    float: left;
+  }
+  .wrapper button{
+    float: none;
+    width: 16.5em;
+  }
+}
+
+
+@media (min-width : 900px) and (max-width:1200px) {
+  body {
+    font-size: 12px;
+    float: left;
+  }
+  .wrapper button{
+    float: none;
+    width: 16.5em;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 10px;
+    float: left;
+  }
+  .wrapper button{
+    float: none;
+    width: 16.5em;
+  }
+  h1{
+    padding-top: 1em;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 8px;
+    float: left;
+  }
+  .wrapper button{
+    float: none;
+    width: 16.5em;
+  }
+  h1{
+    padding-top: 1em;
+  }
 }
