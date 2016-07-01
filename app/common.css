@@ -2,3 +2,22 @@ nav{
   text-align: right;
   opacity: 0.9;
 }
+
+.semn ,.semn:hover, .semn:visited, .semn:target, .semn:target:hover, .semn:active:hover{
+  background-color: orange;
+}
+
+footer img{
+  width: 10%;
+}
+footer{
+  padding-top: 50px;
+  clear: both;
+}
+
+.updateBtn,.updateBtn:hover,.updateBtn:active,.updateBtn:target,.updateBtn:target:hover,.updateBtn:active:hover,.updateBtn:visited{
+  background-color: orange;
+  border-color: transparent;
+  float: right;
+  margin-top: 5px;
+}

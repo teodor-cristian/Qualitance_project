@@ -1,0 +1,30 @@
+.sectionClass{
+  padding-top: 100px;
+}
+
+.shoppingCartImg{
+  width: 30%;
+}
+
+.tdImg{
+  width: 20%;
+}
+
+.table.tableCart td{
+  vertical-align: middle;
+}
+
+
+.row input{
+  padding: 5px;
+  width: 100%;
+}
+
+.rowCity label{
+  padding-top: 10px;
+}
+
+.totalSum{
+  color: orange;
+  font-size: 30px;
+}

@@ -13,7 +13,7 @@
   border: none;
 }
   #myCarousel{
-  
+
   }
 
 .carousel-inner{
@@ -51,30 +51,6 @@ position: absolute;
     .carousel-control.right:hover{
       background-color: transparent;
     }
-
-.semn {
-  background-color: orange;
-}
-
-.semn:hover {
-  background-color: orange;
-}
-
-.semn:visited {
-  background-color: orange;
-}
-
-.semn:target{
-  background-color: orange;
-}
-
-.semn:target:hover{
-  background-color: orange;
-}
-
-.semn:active:hover{
-  background-color: orange;
-}
 
 .addCard{
   margin-left: 100px;
