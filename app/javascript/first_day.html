@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <script>
+    function student(nume,prenume){
+      this.nume=nume;
+      this.prenume=prenume;
+    }
+    student.prototype.name = function()
+    {
+      return this.nume+" "+this.prenume;
+    }
+
+    stud=new student("Teodor","Cristian");
+    console.log(stud.name());
+
+
+    function sum(a,b){
+    //  if(b==undefined || isNaN(b))
+    //  {
+    //     b=0;
+    //  }
+    b=b||0;
+      return a+b;
+    }
+    var x;
+    var y;
+    console.log(sum(3,7));
+
+
+    var z=[1,2,3];
+    delete z[1];
+    for(var i=0;i<z.length;i++)
+    {
+      console.log(z[i]);
+    }
+
+    for(var s in z)
+    {
+      console.log(s);
+    }
+
+    
+  </script>
+
+</head>
+<body>
+
+</body>
+</html>
