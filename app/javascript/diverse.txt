@@ -1,0 +1,21 @@
+toate variabilele de tip primitiv(number) sunt transmise prin valoare. Obiectele sunt transmise prin referinta
+<script>
+    function sum(a,b,cb){
+      var result=a+b;
+      setTimeout(function(){
+        cb(result)
+      },500)
+    }
+    sum(1,2,function(r){
+      console.log(r);
+    })
+    console.log('test');
+  </script>
+
+      console.log(document.getElementsByClassName('container'));
+      console.log(document.getElementsById('ceva').innerHTML);
+        console.log(document.querySelector('div'));
+
+            console.log(document.querySelectorAll('div ul>li'));//returneaza un node list
+            //poate avea innerHTML
+            nth-child(nr) unde x porneste de la 1

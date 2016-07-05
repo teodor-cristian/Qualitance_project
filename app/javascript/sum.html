@@ -4,21 +4,66 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>JS Bin</title>
+</head>
+
+  <body>
+    <div id="content">
+      <p>Hello World</p>
+      <span>I am span</span>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+      </ul>
+
+      <div class="container">
+          <div id="div1" class="div"><span>1</span></div>
+          <div id="div2" class="div"><span>2</span></div>
+          <div id="div3" class="div"><span>3</span></div>
+      </div>
+      <div class="container">
+          <div id="div4" class="div"><span>4</span></div>
+          <div id="div5" class="div"><span>5</span></div>
+          <div id="div6" class="div"><span>6</span></div>
+      </div>
+    </div>
+  </body>
+
+
   <script>
-    function sum(a,b,cb){
-      var result=a+b;
-      setTimeout(function(){
-        cb(result)
-      },500)
+//    var variabila=document.querySelectorAll('div .container div:first-child');
+//    console.log(variabila);
+//    for(var i=0;i<variabila.length;i++)
+//    {
+//      console.log(variabila[i].innerHTML);
+//    }
+    //console.log(document.documentElement);
+
+
+  //  var elements=document.querySelectorAll('div.container');
+  //  var i=-1;
+  //  while(++i<elements.length)
+  //  {
+    //  var child=elements[i].firstChild;
+  //    do{
+  //      console.log(child.innerHTML);
+  //    }while(child=child.nextSibling)
+//    }
+
+
+
+    var nr_elemente=document.querySelectorAll("ul li").length;
+    console.log(nr_elemente);
+
+    for(var i=nr_elemente;i<8;i++)
+    {
+      var element_lista = document.createElement("LI");
+      var text_element = document.createTextNode(i+1);
+      element_lista.style.fontWeight="bold";
+      element_lista.appendChild(text_element);
+      document.querySelector("ul").appendChild(element_lista);
     }
-    sum(1,2,function(r){
-      console.log(r);
-    })
-    console.log('test');
   </script>
 
-</head>
-<body>
-
-</body>
 </html>
