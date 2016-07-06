@@ -6,6 +6,30 @@
   <title>JS Bin</title>
 </head>
 
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+
+  document.getElementById('register').addEventListener('click',function(event){
+  event.preventDefault();
+  console.log(document.getElementById('username').value);
+  console.log(document.getElementById('password').value);
+ })
+});
+
+
+function log_display()
+{
+  console.log(123);
+}
+
+//document.addEventListener('click',function(event){
+//  event.stopPropagation()
+//  alert(2)
+//},true);
+
+
+</script>
+
   <body>
     <div id="content">
       <p>Hello World</p>
@@ -27,6 +51,13 @@
           <div id="div5" class="div"><span>5</span></div>
           <div id="div6" class="div"><span>6</span></div>
       </div>
+
+      <form action="POST" id="register-form">
+          <input type="text" id="username" name="name" />
+          <input type="password" id="password" name="password" />
+          <input type="reset"  value="Reset" />
+          <input type="submit" value="Register" id="register" />
+      </form>
     </div>
   </body>
 
@@ -50,20 +81,20 @@
   //      console.log(child.innerHTML);
   //    }while(child=child.nextSibling)
 //    }
+/////////////////////////////
+  var nr_elemente=document.querySelectorAll("ul li").length;
+  console.log(nr_elemente);
+
+  for(var i=nr_elemente;i<8;i++)
+  {
+    var element_lista = document.createElement("LI");
+    var text_element = document.createTextNode(i+1);
+    element_lista.style.fontWeight="bold";
+    element_lista.appendChild(text_element);
+    document.querySelector("ul").appendChild(element_lista);
+  }
 
 
-
-    var nr_elemente=document.querySelectorAll("ul li").length;
-    console.log(nr_elemente);
-
-    for(var i=nr_elemente;i<8;i++)
-    {
-      var element_lista = document.createElement("LI");
-      var text_element = document.createTextNode(i+1);
-      element_lista.style.fontWeight="bold";
-      element_lista.appendChild(text_element);
-      document.querySelector("ul").appendChild(element_lista);
-    }
   </script>
 
 </html>
